@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(180deg, #050b16, #0b1a2d);
+  font-family: Arial, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LOGIN CARD */
+.login-card {
+  background: #0f243a;
+  padding: 40px;
+  width: 320px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.6);
+  text-align: center;
+}
+
+.login-card h2 {
+  color: #4bb4ff;
+  margin-bottom: 25px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 12px;
+  border: none;
+  background: #091827;
+  color: white;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 12px;
+  border: none;
+  background: #4bb4ff;
+  font-weight: bold;
+}
+
+.note {
+  font-size: 13px;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+/* DASHBOARD */
+.dashboard {
+  background: #0f243a;
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 900px;
+}
+
+/* BUTTONS */
+.nav-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.grade-btn {
+  background: #4bb4ff;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+
+th {
+  background: #142f4d;
+  color: #4bb4ff;
+  padding: 15px;
+}
+
+td {
+  background: #0b1f33;
+  padding: 15px;
+  text-align: center;
+}
